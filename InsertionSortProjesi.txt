@@ -8,7 +8,7 @@ Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 [2,6,16,18,22,27] ==>> n-3
 
 Big-O gösterimini yazınız.
-==ZO(n^2)
+==>O(n^2)
 
 Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
 Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
