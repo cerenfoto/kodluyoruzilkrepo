@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		int kenar1, kenar2, kenar3, cevre;
+		int kenar1, kenar2, kenar3, u;
 		double alan;
 
 		Scanner scanner = new Scanner(System.in);
@@ -17,8 +17,8 @@ public class Main {
 		System.out.println("Lütlen 3. kenar uzunluğunu giriniz: ");
 		kenar3 = scanner.nextInt();
 
-		cevre = (kenar1 + kenar2 + kenar3) / 2;
-		alan = Math.sqrt(cevre * (cevre - kenar1) * (cevre - kenar2) * (cevre - kenar3));
+		u = (kenar1 + kenar2 + kenar3) / 2;
+		alan = Math.sqrt(u * (u - kenar1) * (u - kenar2) * (u - kenar3));
 		System.out.println("Üçgenin alanı: " + alan);
 
 	}
